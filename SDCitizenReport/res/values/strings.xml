@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, home!</string>
+    <string name="app_name">SDCitizenReport</string>
+    <string name="enter_info">Enter the details of the incident:</string>
+    <string name="legal">Please know that your geo location and cellular information will be added to the message for security reasons.</string>
+	<string name="takePic">Add Picture</string>
+	<string name="welcome">San Diego Citizen Report\nPlease Select an Option</string>
+	<string name="GOOGLE_MAPS_API_KEY">0Fj6WbonvJGPUOtKS9L7NZkcico0_zGgxDyTXsA</string>
+</resources>

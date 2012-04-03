@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        
+       <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Report"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableRow >
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customcamera"
+             />
+        
+        <TextView
+        android:id="@+id/enterInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/takePic"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+         android:id="@+id/dialer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customphone"
+             />
+        
+        <TextView
+        android:id="@+id/enterInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call 911"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_info"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/userInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/legal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TableRow >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+        
+    </TableRow>
+
+</TableLayout>
