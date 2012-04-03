@@ -67,8 +67,8 @@ public class Precinct {
     // Take in the Zipcode and return the emailAddress
     public String getPrecinctEmailAdd(String Zip){
     	if(lookUp.containsKey(Zip)) {
-    		return TestEmail;
     		//return lookUp.get(Zip);
+    		return TestEmail;
     	} else {
     		return "default";
     	}

@@ -51,7 +51,7 @@ public class Mail extends javax.mail.Authenticator {
     _subject = ""; // email subject 
     _body = ""; // email body 
  
-    _debuggable = true; // debug mode on or off - default off 
+    _debuggable = false; // debug mode on or off - default off 
     _auth = true; // smtp authentication - default on 
  
     _multipart = new MimeMultipart(); 
@@ -83,7 +83,7 @@ public class Mail extends javax.mail.Authenticator {
  
       msg.setFrom(new InternetAddress(_from)); 
        
-     // InternetAddress addressTo = new InternetAddress(_to); 
+      InternetAddress addressTo = new InternetAddress(_to); 
       
         msg.setRecipients(MimeMessage.RecipientType.TO, _to); 
  
